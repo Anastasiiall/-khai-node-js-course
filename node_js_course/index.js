@@ -24,5 +24,4 @@ app.get('/products/:brand', (req, res) => {
 });
 
 // start the server
-app.listen(3000,
-  () => console.log(`server start at http://localhost:3000/`));
+app.listen(3000, () => console.log(`server start at http://localhost:3000/`));
